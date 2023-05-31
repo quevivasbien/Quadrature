@@ -240,10 +240,11 @@ float vsvoq2(Function&& f, float a, float b, float precision) {
     return result;
 }
 
-template <typename Function>
-float vsvoq3(Function&& f, float a, float b, float precision) {
-    return 0;
-}
+// to-do
+// template <typename Function>
+// float vsvoq3(Function&& f, float a, float b, float precision) {
+//     return 0;
+// }
 
 template <typename Function>
 float integrate(Function&& f, float a, float b, float precision) {
