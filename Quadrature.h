@@ -3,7 +3,7 @@
 
 #include "Arduino.h"
 
-const float MIN_PRECISION = 32.0 * __FLT_EPSILON__;
+const float MIN_PRECISION = 2.0 * __FLT_EPSILON__;
 
 // simpson's rule
 const double a2_0 = 1.0 / 6.0;

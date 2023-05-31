@@ -1,0 +1,3 @@
+= Quadrature library for Arduino =
+
+This library contains basic methods for numerical integration.
